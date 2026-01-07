@@ -1,10 +1,8 @@
 import HomePage from "./landing/home/HomePage";
-const App = () => {
-  return (
-    <div>
-      <HomePage />
-    </div>
-  );
-};
+function App() {
+  return <>
+    <HomePage />
+  </>;
+}
 
 export default App;
