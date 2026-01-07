@@ -1,17 +1,8 @@
-import Hero from "./Hero";
-import Navbar from "../Navbar";
-import LeftSec from "./LeftSec";
-import RightSec from "./RightSec";
-
-
 function Universe() {
     return (
-        <>
-        <Navbar />
-        <Hero />
-        <LeftSec />
-        <RightSec />
-        </>
+        <div>
+            <h1 className="text-3xl font-bold underline">Universe</h1>
+        </div>
     );
 }
 
