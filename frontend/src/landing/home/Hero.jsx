@@ -1,7 +1,11 @@
+import homeHero from "../../assets/homeHero.png"
+
 function Hero() {
     return (
-        <div>
-            <h1 className="text-3xl font-bold underline">Hero</h1>
+        <div className="container">
+            <div className="row">
+                <img src={homeHero} alt="homeHero"/>
+            </div>
         </div>
     );
 }
