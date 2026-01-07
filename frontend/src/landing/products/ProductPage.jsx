@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import LeftSec from "./LeftSec";
 import RightSec from "./RightSec";
 import Universe from "./Universe";
+import Footer from "../Footer";
 
 
 function ProductPage() {
@@ -13,6 +14,7 @@ function ProductPage() {
         <LeftSec />
         <RightSec />
         <Universe />
+        <Footer />
         </>
     );
 }
