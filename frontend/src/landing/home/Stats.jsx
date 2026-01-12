@@ -1,7 +1,10 @@
 function Stats() {
     return (
-        <div>
-            <h1 className="text-3xl font-bold underline">Stats</h1>
+        <div className="container">
+            <div className="row">
+                <div className="col-6"></div>
+                <div className="col-6"></div>
+            </div>
         </div>
     );
 }
