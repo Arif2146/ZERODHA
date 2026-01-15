@@ -8,19 +8,18 @@ import Navbar from "../Navbar";
 import OpenAcc from "../OpenAcc";
 
 function HomePage() {
-
-    return (
-       <>
-        <Navbar />
-        <Hero />
-        <Awards />
-        <Stats />
-        <Pricing />
-        <Education />
-        <OpenAcc />
-        <Footer />
-       </>
-    );
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Awards />
+      <Stats />
+      <Pricing />
+      <Education />
+      <OpenAcc />
+      <Footer />
+    </>
+  );
 }
 
-export default HomePage
+export default HomePage;
