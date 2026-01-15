@@ -7,7 +7,7 @@ function Footer() {
           <div className="col">
             <img src={Logo} width="50%" alt="Logo" />
             <p>&copy; 2010 - 2025, Zerodha Broking Ltd. All rights reserved.</p>
-            <div className="p-2 m-2 d-flex align-items-center">
+            <div className="mt-3 d-flex gap-3">
               <a href="https://twitter.com/zerodhaonline">
                 <img
                   src="https://zerodha.com/static/images/x-twitter.svg"
