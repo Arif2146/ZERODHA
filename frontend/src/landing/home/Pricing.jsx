@@ -17,13 +17,20 @@ function Pricing() {
         <div className="col-2"></div>
         <div className="col-6 mb-5">
           <div className="row text-center">
-            <div className="col p-3 border">
-              <h1 className="mb-3">$0</h1>
-              <p>Commission on Equity</p>
+          <div className="col p-3 ">
+              <h1 className="mb-3"><img src="https://zerodha.com/static/images/pricing-eq.svg " alt="$0"/></h1>
+              <p>Free account
+opening</p>
             </div>
-            <div className="col p-3 border">
-              <h1 className="mb-3">$20</h1>
-              <p>Commission on Equity</p>
+            <div className="col p-3 ">
+              <h1 className="mb-3"><img src="https://zerodha.com/static/images/pricing-eq.svg " alt="$0"/></h1>
+              <p>Free equity delivery
+and direct mutual funds</p>
+            </div>
+            <div className="col p-3 ">
+              <h1 className="mb-3"><img src="https://zerodha.com/static/images/other-trades.svg " alt="$20"/></h1>
+              <p>Intraday and
+F&O Trades</p>
             </div>
           </div>
         </div>
