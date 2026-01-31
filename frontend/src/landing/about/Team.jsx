@@ -1,35 +1,26 @@
+import nithinKamath from '../../assets/nithinKamath.jpg';
+
 function Team() {
     return (
     <div className="container">
-      <div className="row p-5 mt-5 mb-5">
-        <h1 className="fs-2 text-center">
+      <div className="row p-5 mt-5 border-top">
+        <h1 className=" text-center">
           People
         </h1>
       </div>
-      <div className="row p-5 mt-5 border-top text-muted fs-6">
-        <div className="col-6 p-5">
-          <p>
-          <p>  We kick-started operations on the 15th of August, 2010 with the goal<br/>
-            of breaking all barriers that traders and investors face in India in<br/>
-            terms of cost, support, and technology. We named the company<br/>
-            Zerodha, a combination of Zero and "Rodha", the Sanskrit word for<br/>
-            barrier.<br/></p> <p>Today, our disruptive pricing models and in-house<br/>
-            technology have made us the biggest stock broker in India.</p> <p>Over 1.6+
-            crore clients place billions of orders every year through our<br/>
-            powerful ecosystem of investment platforms, contributing over 15% of<br/>
-            all Indian retail trading volumes.<br/></p>
-          </p>
+      <div className="row p-5 text-muted fs-6">
+        <div className="col-6 p-5 text-center">
+         <img src={nithinKamath} style={{width:"70%"}} alt="Nithin Kamath" className="img-fluid rounded-circle"/>
+         <h4 className='mt-5'>Nithin Kamath  </h4>
+         <p className="text-muted">Founder & CEO</p>
         </div>
-        <div className="col-6 p-5">
+        <div className="col-6 p-5 text-start ">
           <p>
-            <p>In addition, we run a number of popular open online educational and<br/>
-            community initiatives to empower retail traders and investors.<br/></p>
-            <p><a style={{textDecoration:"none"}} href="https://www.zerodha.com/rainmatter">Rainmatter</a>, our fintech fund and incubator, has invested in several<br/>
-            fintech startups with the goal of growing the Indian capital<br/>
-            markets.</p> <p>And yet, we are always up to something new every day. Catch<br/>
-            up on the latest updates on our <a style={{textDecoration:"none"}} href="https://www.zerodha.com/blog">blog</a> or see what the media is <a style={{textDecoration:"none"}} href="https://www.zerodha.com/media">saying
-            about</a> us or learn more about our business and product <a style={{textDecoration:"none"}} href="https://www.zerodha.com/learn">philosophies</a>.<br/></p>
-          </p>
+           <p>Nithin bootstrapped and founded Zerodha in 2010 to overcome the hurdles he faced during his decade long stint as a trader. Today, Zerodha has changed the landscape of the Indian broking industry.</p>
+           <p>He is a member of the SEBI Secondary Market Advisory Committee (SMAC) and the Market Data Advisory Committee (MDAC).</p>
+           <p>Playing basketball is his zen.</p>
+           <p>Connect on <a href="https://www.zerodha.com" target="_blank" rel="noopener noreferrer">Homepage</a> / <a href="https://www.tradingqna.com" target="_blank" rel="noopener noreferrer">TradingQnA</a> / <a href="https://twitter.com/zerodha" target="_blank" rel="noopener noreferrer">Twitter</a></p>
+           </p>
         </div>
       </div>
     </div>
