@@ -51,6 +51,9 @@ function ProductPage() {
         googlePlay="/google-play"
         appStore="/app-store"
       />
+      <h4 className="text-center mt-4">
+        Want to know more about our technology stack? Check out the Zerodha.tech blog.
+      </h4>
       <Universe />
     </>
   );
