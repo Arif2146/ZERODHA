@@ -19,8 +19,8 @@ function ProductPage() {
         googlePlay="/google-play"
         appStore="/app-store"
       />
-      <RightSec/>
-       <LeftSec
+      <RightSec />
+      <LeftSec
         imageURL={Coin}
         productName="Coin"
         productDescription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices."
@@ -29,8 +29,8 @@ function ProductPage() {
         googlePlay="/google-play"
         appStore="/app-store"
       />
-      <RightSec/>
-       <LeftSec
+      <RightSec />
+      <LeftSec
         imageURL={Versity}
         productName="Varsity mobile"
         productDescription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go."
