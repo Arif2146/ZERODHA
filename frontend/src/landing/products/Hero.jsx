@@ -1,9 +1,19 @@
 function Hero() {
-    return (
-        <div>
-            <h1 className="text-3xl font-bold underline">Hero</h1>
-        </div>
-    );
+  return (
+    <div className="container">
+      <div className="text-center mt-5 p-3">
+        <h1>Zerodha Products</h1>
+        <h3 className="mt-3 text-muted fs-4">Sleek, modern and intuitive trading platforms</h3>
+        <p className="mt-3">
+          Check out our{" "}
+          <a href=" " style={{ textDecoration: "none" }}>
+            investment offerings{" "}
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  );
 }
 
-export default Hero
+export default Hero;
