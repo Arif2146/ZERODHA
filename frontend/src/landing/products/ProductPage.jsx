@@ -5,6 +5,8 @@ import Universe from "./Universe";
 import Kite from "../../assets/kite.png";
 import Coin from "../../assets/coin.png";
 import Versity from "../../assets/varsity.png";
+import Console from "../../assets/console.png";
+import kiteconnect from "../../assets/kiteconnect.png";
 
 function ProductPage() {
   return (
@@ -19,7 +21,12 @@ function ProductPage() {
         googlePlay="/google-play"
         appStore="/app-store"
       />
-      <RightSec />
+      <RightSec
+        imageURL={Console}
+        productName="Console"
+        productDescription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations."
+        learnMore="/learn-more"
+      />
       <LeftSec
         imageURL={Coin}
         productName="Coin"
@@ -29,7 +36,12 @@ function ProductPage() {
         googlePlay="/google-play"
         appStore="/app-store"
       />
-      <RightSec />
+      <RightSec
+        imageURL={kiteconnect}
+        productName="Kite Connect API"
+        productDescription="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase."
+        learnMore="/learn-more"
+      />
       <LeftSec
         imageURL={Versity}
         productName="Varsity mobile"
