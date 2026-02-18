@@ -1,7 +1,15 @@
-const express = require("express");
+require("dotenv"). config();
 
-const app = express() ;
+const express = require("express") ;
+const mongoose = require("mongoose");
 
-app.listen(3002, () => {
-console.log("App started!");
-});
+const PORT = process.env.PORT || 3002;
+const uri = process.env.MONGO_URL;
+
+const app = express();
+
+app. listen (PORT, () => {
+console. log ("App started!");
+mongoose. connect(uri);
+console. log ("DB connected!");
+})
